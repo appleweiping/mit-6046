@@ -1,0 +1,13 @@
+=== PS10 P10-1: leader election in a synchronous ring ===
+(a) LCR (unique-id fallback): ring ids=[865, 395, 777, 912, 431, 42, 266, 989]
+    elected leader = 989 (== max id: True), rounds=8, messages=22
+(a) identical deterministic processes -> leader election IMPOSSIBLE: True (symmetry never breaks over 3n rounds)
+(b/c) probabilistic election (n known / unknown): always exactly one leader
+    n=5: leader=94, rounds~5, messages~12, random-id attempts=1
+    n=10: leader=295, rounds~10, messages~23, random-id attempts=1
+    n=20: leader=1569, rounds~20, messages~86, random-id attempts=1
+
+=== PS10 P10-2: async BFS without corrections (root-coordinated) ===
+coordinated level-by-level BFS: valid BFS tree, levels == true distances,
+each parent set exactly once (no corrections): verified on 300/300 random connected graphs
+example: parents=[0, 0, 0, 1, 3], levels=[0, 1, 1, 2, 3]  (BFS tree rooted at 0)
