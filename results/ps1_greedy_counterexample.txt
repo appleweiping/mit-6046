@@ -1,0 +1,28 @@
+--- greedy counterexample ---
+{
+  "profit": [
+    2,
+    3,
+    2
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "greedy_value": 3,
+  "greedy_set": [
+    1
+  ],
+  "optimal_value": 4,
+  "optimal_set": [
+    0,
+    2
+  ],
+  "greedy_is_suboptimal": true
+}
