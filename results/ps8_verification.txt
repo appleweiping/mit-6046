@@ -1,0 +1,11 @@
+=== PS8 P8-1: Simplex on the pset LP ===
+LP: max 4x1 + x2  s.t.  x1+x2<=10, 4x1-x2<=20, x1+3x2<=24, x>=0
+  status  = optimal
+  optimum = 28  at x* = (6, 4)
+  pivots (row,col) = [(1, 0), (0, 1)]
+  dual optimum y = ['8/5', '3/5', '0'], y^T b = 28  (== primal, strong duality)
+  brute-force vertex optimum = 28  (matches: True)
+
+=== PS8 P8-2: 3SAT -> Independent-Set reduction equivalence (verified) ===
+3SAT satisfiable  <=>  reduction graph has independent set of size #clauses
+  verified on 500/500 random 3SAT instances (both directions)
