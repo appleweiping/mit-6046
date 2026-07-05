@@ -1,0 +1,8 @@
+      n  trials   mean_comps   max_comps       n_lg_n  mean/nlgn  max/nlgn
+    100     200        652.9         881        664.4      0.983     1.326
+    300     200       2602.3        3384       2468.6      1.054     1.371
+   1000     200      10994.8       13585       9965.8      1.103     1.363
+   3000     200      39708.2       45464      34652.2      1.146     1.312
+  10000     200     155968.4      179085     132877.1      1.174     1.348
+
+saved figure -> D:\Project\algorithms\mit-6046\results\ps4_quicksort_comparisons.png
