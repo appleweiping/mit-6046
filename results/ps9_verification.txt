@@ -1,0 +1,14 @@
+=== PS9 P9-1: Knapsack Alg1-4 ===
+Alg1 (density greedy) counterexample: items=[(1, 2), (1000, 1000)], B=1000
+  greedy value=2, OPT=1000, ratio OPT/greedy=500.0 (unbounded family)
+
+Instance items=[(3, 8), (4, 10), (5, 12), (2, 5), (6, 15)], B=10: OPT=25
+  Alg2 (2-approx)     = 23  (>= OPT/2)
+  Alg3 (exact DP)     = 25  (== OPT: True)
+  Alg4 FPTAS eps=0.5: value=25  (>= (1-eps)*OPT = 12.5)
+  Alg4 FPTAS eps=0.2: value=25  (>= (1-eps)*OPT = 20.0)
+  Alg4 FPTAS eps=0.05: value=25  (>= (1-eps)*OPT = 23.8)
+
+=== PS9 P9-2: Tournament Edge Reversal FPT ===
+FPT 3^k branching == minimum cycle cover, reversal yields acyclic tournament,
+kernelization preserves the optimum: verified on 300/300 random tournaments
