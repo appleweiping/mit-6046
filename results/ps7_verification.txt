@@ -1,0 +1,12 @@
+=== PS7 P7-1: dynamic max-flow update (O(k(V+E))) ===
+base max flow s=0 t=3: 5
+after +2 on edge (1,3): 5  (dynamic update)
+after -2 on edge (0,1): 3  (dynamic update)
+
+=== PS7 P7-2: k edge-disjoint paths ===
+sources [0,1] -> target 4 : [[0, 2, 4], [1, 3, 4]] (edge-disjoint)
+
+=== PS7 P7-3: food-truck assignment (minimize vouchers) ===
+customers=5, servings=[1, 1, 2]
+assigned 4 customers -> 1 vouchers (minimum)
+assignment (customer->food, None=voucher): [0, None, 1, 2, 2]
