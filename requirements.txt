@@ -1,0 +1,8 @@
+# MIT 6.046 solutions — runtime dependencies actually imported by the code.
+# Reuse the shared csdiy venv (Python 3.11):
+#   D:\Project\_csdiy\.venv-ml\Scripts\python.exe
+matplotlib>=3.7      # PS4 quicksort comparison-count figure
+scipy>=1.10          # PS8 cross-check of the Simplex solver vs linprog
+pytest>=7.0          # test runner
+# Everything else (FFT, skip list, max-flow, Simplex core, DP, distributed sims)
+# is pure standard-library Python — no third-party dependency.

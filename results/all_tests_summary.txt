@@ -1,0 +1,11 @@
+[OK ] ps1    6 passed in 0.35s
+[OK ] ps2    7 passed in 1.87s
+[OK ] ps4    5 passed in 3.67s
+[OK ] ps5    9 passed in 0.38s
+[OK ] ps6    7 passed in 0.20s
+[OK ] ps7    6 passed in 0.28s
+[OK ] ps8    5 passed in 8.29s
+[OK ] ps9    7 passed in 2.27s
+[OK ] ps10   5 passed in 0.10s
+
+ALL TESTS PASSED
